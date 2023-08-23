@@ -1,0 +1,423 @@
+body{
+    background-color: whitesmoke;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#container{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rectangle{
+    background-color: rgb(61, 58, 51);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+.rectangle img{
+    
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+#name{
+    font-size: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+#welcome{
+    font-size: 30px;
+    color: antiquewhite;
+    margin-right: 10px;
+}
+#date{
+    font-size: 30px;
+    color: rgb(230, 197, 139);
+    margin-left: auto;
+    margin-right: 30px;
+}
+#left_panel {
+    float: left;
+    background-color: rgb(233, 213, 173);
+    width: 260px;
+    min-height: 520px;
+    border: 3px solid rgb( 61, 58, 53);
+}
+.home, .menu, .gallery, .contact {
+    background-color: rgb(230, 197, 139);
+    font-size: 27px;
+    text-align: center;
+    width: 235px;
+    height: 50px;
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.home:hover, .menu:hover, .gallery:hover, .contact:hover {
+    background-color: antiquewhite;
+}
+.home_click, .menu_click, .gallery_click, .contact_click {
+    background-color: antiquewhite;
+    font-size: 27px;
+    text-align: center;
+    width: 235px;
+    height: 50px;
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.center_panel_Home{
+    float: left;
+    background-color: whitesmoke;
+    width: 933px;
+    min-height: 500px;
+    padding: 10px;
+    border-top: 3px solid rgb( 61, 58, 53);
+    border-bottom: 3px solid rgb( 61, 58, 53);
+}
+.center_panel_Menu{
+    float: left;
+    background-color: whitesmoke;
+    width: 1235px;
+    min-height: 1040px;
+    border-top: 3px solid rgb( 61, 58, 53);
+    border-bottom: 3px solid rgb( 61, 58, 53);
+    border-right: 3px solid rgb( 61, 58, 53);
+}
+#left_panel_Menu {
+    float: left;
+    background-color: rgb(233, 213, 173);
+    width: 260px;
+    min-height: 1045px;
+    border: 3px solid rgb( 61, 58, 53);
+}
+.center_panel_Gallery{
+    float: left;
+    background-color: whitesmoke;
+    width: 1235px;
+    min-height: 1560px;
+    border-top: 3px solid rgb( 61, 58, 53);
+    border-bottom: 3px solid rgb( 61, 58, 53);
+    border-right: 3px solid rgb( 61, 58, 53);
+}
+#left_panel_Gallery {
+    float: left;
+    background-color: rgb(233, 213, 173);
+    width: 260px;
+    min-height: 1560px;
+    border: 3px solid rgb( 61, 58, 53);
+}
+.center_panel_Contact{
+    float: left;
+    background-color: whitesmoke;
+    width: 1235px;
+    min-height: 520px;
+    border-top: 3px solid rgb( 61, 58, 53);
+    border-bottom: 3px solid rgb( 61, 58, 53);
+    border-right: 3px solid rgb( 61, 58, 53);
+}
+.square{
+    display: flex;
+    float: left;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 600px;
+    height: 450px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 2px solid rgb(61, 58, 53);
+}
+#logo2 img{
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+#label_cafe_corner{
+    font-size: 36px;
+    text-align: center;
+}
+#label_cafe_and_bistro{
+    font-size: 24px;
+    font-family: "Calibri", sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#label_inviting{
+    font-size: 20px;
+    font-family: "Calibri", sans-serif;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#button_menu{
+    background-color: rgb(232, 188, 181);
+    font-size: 22px;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    border: 2px solid rgb(61, 58, 53);
+    text-align: center;
+}
+.button_menu:hover{
+    background-color: rgb(233, 212, 209);
+}
+#img1 img, #img2 img{
+    float: left;
+    width: 22%;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    margin-top: 8px;
+    margin-left: 55px;
+    padding: 5px;
+}
+#img3 img{
+    float: left;
+    width: 80%;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid rgb(61, 58, 53);
+    margin-top: 55px;
+    margin-left: 5px;
+}
+#right_panel_Home{
+    float: left;
+    width: 282px;
+    min-height: 520px;
+    border-top: 3px solid rgb(61, 58, 53);
+    border-bottom: 3px solid rgb(61, 58, 53);
+    border-right: 3px solid rgb(61, 58, 53);
+}
+a.tilelink{
+    color: rgb(61, 58, 53);
+    text-decoration: none;
+    display: block;
+    width: 235px;
+    height: 50px;
+}
+a.tilelink2{
+    color: rgb(61, 58, 53);
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    height: 10px;
+}
+
+/*Menu Window*/
+.menu_square{
+    background-color: rgb(247, 247, 233);
+    display: flex;
+    float: left;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 410px;
+    height: 520px;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+#menu_labels{
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-family: "Comic Sans MS", sans-serif;
+    text-align: center;
+}
+#Menu_label{
+    color: rgb(99, 79, 24);
+    font-size: 35px;
+    font-family: "Comic Sans MS", sans-serif;
+    text-align: center;
+}
+
+/*Gallery Window*/
+.gallery_square{
+    background-color: whitesmoke;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 410px;
+    height: 520px;
+}
+#img4 img{
+    float: right;
+    width: 60%;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid rgb(61, 58, 53);
+    margin-top: 10px;
+    margin-left: 65px;
+}
+#img5 img{
+    float: right;
+    width: 60%;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid rgb(61, 58, 53);
+    margin-top: 10px;
+    margin-left: 65px;
+}
+#img6 img{
+    width: 75%;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid rgb(61, 58, 53);
+    margin-top: 8px;
+    margin-left: 70px;
+}
+#img7 img{
+    float: left;
+    width: 55%;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid rgb(61, 58, 53);
+    margin-top: 5px;
+    margin-left: 40px;
+}
+#img8 img{
+    float: left;
+    width: 55%;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid rgb(61, 58, 53);
+    margin-top: 5px;
+    margin-left: 40px;
+}
+#img9 img{
+    width: 150%;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid rgb(61, 58, 53);
+    margin-left: 325px;
+}
+#img10 img{
+    float: left;
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid rgb(61, 58, 53);
+    margin-top: 10px;
+    margin-left: 195px;
+}
+#img11 img{
+    float: left;
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid rgb(61, 58, 53);
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 195px;
+}
+#img12 img{
+    float: left;
+    width: 76%;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid rgb(61, 58, 53);
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+#img13 img{
+    float: left;
+    width: 65%;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid rgb(61, 58, 53);
+    margin-top: 10px;
+}
+#img14 img{
+    float: left;
+    width: 57%;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid rgb(61, 58, 53);
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 28px;
+}
+.scrollUp {
+    width: 120px;
+    height: 120px;
+    text-decoration: none;
+    background: url("img/scrollUp.png") no-repeat 0px 0px;
+    position: fixed;
+    right: -10px;
+    bottom: 35px;
+    display: none;
+    cursor: pointer;
+}
+
+/*Contact Window*/
+.contact_square{
+    display: flex;
+    float: left;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 410px;
+    height: 520px;
+    border-left: 2px solid rgb(255, 255, 255);
+}
+.contact_labels_food {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-family: "Calibri", sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.contact_labels_food:before {
+    color: rgb(225, 122, 106);
+    content: "🍴";
+    margin-right: 10px;
+}
+.contact_labels_tel {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-family: "Calibri", sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.contact_labels_tel:before {
+    content: "📞";
+    margin-right: 10px;
+}
+.contact_labels_home {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-family: "Calibri", sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.contact_labels_home:before {
+    content: "⌂";
+    margin-right: 22px;
+}
+.contact_labels {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-family: "Calibri", sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.contact_labels:before {
+    color: rgb(225, 122, 106);
+    content: "✔";
+    margin-right: 10px;
+}
+.contact_square ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact_square li {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,5 @@
+
+.icon-home:before { content: '\e800'; } /* '' */
+.icon-picture:before { content: '\e801'; } /* '' */
+.icon-info-circled:before { content: '\e802'; } /* '' */
+.icon-food:before { content: '\f0f5'; } /* '' */
